@@ -5,7 +5,16 @@
 
 > A desktop quiz application built with Java Swing, featuring programming questions in Java and Python.
 
-![Quiz Application Screenshot](screenshot.png)
+## 📸 Screenshots
+
+### Login Screen
+![Login Screen](screenshots/login.png)
+
+### Quiz Selection
+![Quiz Selection](screenshots/quiz-selection.png)
+
+### Quiz in Progress
+![Quiz in Progress](screenshots/quiz-progress.png)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -90,6 +99,7 @@ java -cp target/classes com.quizapp.Main
 
 ```
 Quiz-Application/
+├── screenshots/    # Application screenshots
 ├── src/
 │   └── main/
 │       └── java/
