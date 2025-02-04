@@ -2,6 +2,48 @@
 
 A Java-based desktop quiz application featuring multiple-choice questions on Java and Python programming languages.
 
+## 👥 For Friends: How to Download and Run
+
+### Method 1: Download and Run (Easiest)
+1. Download Java JDK if you don't have it:
+   - Visit: https://www.oracle.com/java/technologies/downloads/
+   - Download and install JDK for your operating system (Windows/Mac/Linux)
+
+2. Download the application:
+   - Click the green "Code" button above
+   - Select "Download ZIP"
+   - Extract the ZIP file to a folder
+
+3. Run the application:
+   - Open Command Prompt/Terminal
+   - Navigate to the extracted folder:
+     ```bash
+     cd path/to/extracted/Quiz-Application
+     ```
+   - Compile the code:
+     ```bash
+     javac -d target/classes src/main/java/com/quizapp/Main.java src/main/java/com/quizapp/models/*.java src/main/java/com/quizapp/services/*.java src/main/java/com/quizapp/ui/*.java src/main/java/com/quizapp/utils/*.java
+     ```
+   - Run the application:
+     ```bash
+     java -cp target/classes com.quizapp.Main
+     ```
+
+### Method 2: Using Git (For Developers)
+```bash
+# Clone the repository
+git clone https://github.com/Kruthik-kumar/Quiz-Application.git
+
+# Navigate to project directory
+cd Quiz-Application
+
+# Compile the project
+javac -d target/classes src/main/java/com/quizapp/Main.java src/main/java/com/quizapp/models/*.java src/main/java/com/quizapp/services/*.java src/main/java/com/quizapp/ui/*.java src/main/java/com/quizapp/utils/*.java
+
+# Run the application
+java -cp target/classes com.quizapp.Main
+```
+
 ## Features
 
 - User Authentication (Login/Register)
@@ -15,36 +57,6 @@ A Java-based desktop quiz application featuring multiple-choice questions on Jav
 
 - Java Development Kit (JDK) 8 or higher
 - MySQL Database (optional, currently using in-memory storage)
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/YOUR_USERNAME/Quiz-Application.git
-```
-
-2. Navigate to the project directory:
-```bash
-cd Quiz-Application
-```
-
-3. Compile the project:
-```bash
-javac -d target/classes src/main/java/com/quizapp/Main.java src/main/java/com/quizapp/models/*.java src/main/java/com/quizapp/services/*.java src/main/java/com/quizapp/ui/*.java src/main/java/com/quizapp/utils/*.java
-```
-
-4. Run the application:
-```bash
-java -cp target/classes com.quizapp.Main
-```
-
-## Usage
-
-1. Launch the application
-2. Register a new account or login with existing credentials
-3. Select a quiz (Java or Python)
-4. Answer the multiple-choice questions
-5. View your score at the end of the quiz
 
 ## Project Structure
 
