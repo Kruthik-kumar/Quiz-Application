@@ -8,13 +8,13 @@
 ## 📸 Screenshots
 
 ### Login Screen
-![Login Screen](screenshots/login.png)
+![Login Screen](screenshots/login.png.png)
 
 ### Quiz Selection
-![Quiz Selection](screenshots/quiz-selection.png)
+![Quiz Selection](screenshots/quiz-selection.png.png)
 
 ### Quiz in Progress
-![Quiz in Progress](screenshots/quiz-progress.png)
+![Quiz in Progress](screenshots/quiz-progress.png.png)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -126,7 +126,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@YourTwitter](https://twitter.com/YourTwitter)
 
 Project Link: [https://github.com/Kruthik-kumar/Quiz-Application](https://github.com/Kruthik-kumar/Quiz-Application)
 
